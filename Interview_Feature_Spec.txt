@@ -1,0 +1,78 @@
+Interview Planner
+
+Imagine an app that help facilate the interview process. Normally one can find himself/herself scrambingly between multiple emails. Introducing Interview Planner, an easy way to coordinate all your travel needs. It will create an easy way to manage all interviews coming up. You can enter your flight number and get all the information saved onto your phone. You can enter your hotel and transportation information. Interviews are always a hassle because you have to remember the address of the hotel, the company, and the flight. 
+
+Requirements
+	Adding new interviews
+	Updating or deleting information
+	Handling incorrect information
+	Notifications
+
+Classes
+	
+	Interview
+		Location
+		Time
+	Person
+		Name
+	Hotel
+		Time
+		Location
+	Transportation
+		Company Name
+		Pickup Time
+	Flight
+		Retreive flight info based on flight number
+		Update as needed
+		Notifications on flight changes
+		Necessary fields
+			Departure
+				Time
+				Gate
+				Terminal
+			Arrival
+				Time
+				Gate
+				Terminal
+	Calendar
+	Weather
+	PDFs
+
+
+
+
+Features
+	Adding a new interview
+		Interview Info
+			Company Name
+			Date and time
+			Location
+		Exterior transportation
+			Flight
+				Manually enter/Flight Number
+			Drive
+				Estimated travel time (Waze, Mapquest, Google Map)
+		Interior transportation
+			Limo/taxi/Uber
+				Estimated travel time (Waze, Mapquest, Google Map)
+		Weather check
+			check for weather API
+		PDFs
+	Updating or deleting an interview
+		Same as above exception of weather
+
+	Handling incorrect
+		Interview Infomation
+			Valid location
+		Exterior transportation
+			Valid flight
+		Interior transportation
+			valid address
+		PDFs
+			successfully add a new doc
+	Notifications
+		Reminders on upcoming interview
+			1 day prior to whatever comes first (flight, interview, drive)
+		Notify if flight has been changed, delayed or 
+
+
